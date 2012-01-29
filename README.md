@@ -19,6 +19,7 @@ If you like to polish the default design or know some awesome Jekyll magic, I'm 
 __Try locally__
 
 	git clone https://kblomqvist@github.com/kblomqvist/ghblog-template.git
+	cd ghblog-template
 	jekyll --server
 
 Now open your browser and go to _localhost:4000_.
