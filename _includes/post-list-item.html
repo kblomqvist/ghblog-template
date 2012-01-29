@@ -1,8 +1,8 @@
 <li class="hentry">
-	<span class="published" title="{{ post.date | date_to_xmlschema }}">
+	<span class="published updated" title="{{ post.date | date_to_xmlschema }}">
 	{{ post.date | date_to_string }}
 	</span>
 	&raquo;	<a class="entry-title" href="{{ post.url }}" rel="bookmark">
 		{{ post.title }}</a>
-	<address class="vcard author">{{ post.author }}</address>
+	<address class="vcard author"><span class="fn">{{ post.author }}</span></address>
 </li>
