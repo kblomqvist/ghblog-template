@@ -48,4 +48,4 @@ License
 
 The code that this project consists of is licensed under MIT and is based of MIT-licensed work by [Tom Preston-Werner](http://github.com/mojombo/jekyll).
 
-The design of the default template is based on [initializr-template](https://github.com/verekia/initializr-template)
+The design of the default template is based on [initializr-template](https://github.com/verekia/initializr-template).
