@@ -12,6 +12,7 @@ description: All posts are gathered here
 	</ul>
 </article>
 
+{% if site.tags.size > 0 %}
 <aside>
 	<h3>Posts' tags list</h3>
 	<ul class="tags-list">
@@ -20,3 +21,4 @@ description: All posts are gathered here
 	{% endfor %}
 	</ul>
 </aside>
+{% endif %}
