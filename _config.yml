@@ -1,0 +1,5 @@
+markdown: rdiscount
+pygments: true
+paginate: 20
+exclude:
+- CNAME

@@ -1,0 +1,26 @@
+{% if content == nil %}
+{% assign content = post.content %}
+{% endif %}
+
+<article class="post hentry">
+	<header>
+		<h1 class="entry-title">
+		<a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a>
+		</h1>
+		<abbr class="published" title="{{ post.date | date_to_xmlschema }}">
+			{{ post.date | date_to_string }}
+		</abbr>
+		<address class="vcard author">{{ post.author }}</address>
+	</header>
+	
+	<section class="entry-content">{{ content }}</section>
+
+	<footer class="end-of-post">
+		<span class="entry-tags">
+			{% for tag in post.tags %}
+			<a href="/tag#{{ tag }}" rel="tag">{{ tag }}</a>
+			{% endfor %}
+		</span>
+	</footer>
+</article>
+

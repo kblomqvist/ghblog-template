@@ -1,0 +1,19 @@
+---
+layout: default
+title: My blog
+description: This is the landing page
+---
+
+{% for post in site.posts limit: 1 %}
+<div class="hfeed">{% include post-article.html %}</div>
+{% endfor %}
+
+<aside>
+	<h3>Most recent posts</h3>
+	<ul class="posts-list hfeed">
+		{% for post in site.posts limit: 5 %}
+		{% include post-list-item.html %}
+		{% endfor %}
+	</ul>
+</aside>
+

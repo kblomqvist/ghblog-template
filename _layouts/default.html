@@ -1,0 +1,48 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>	  <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>	  <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>{{ page.title }}</title>
+	<meta name="description" content="{{ page.description }}">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" href="/css/style.css" />
+
+	<script src="/js/libs/modernizr-2.0.6.min.js"></script>
+
+	<style>
+		.post .published { float: right; }
+		.posts-list .author { display: none; }
+	</style>
+</head>
+<body>
+
+<div id="header-container">
+	<header class="wrapper clearfix">
+		<h1 id="title">h1#title</h1>
+		<nav>{% include menulist.html %}</nav>
+	</header>
+</div>
+
+<div id="main-container">
+	<div id="main" class="wrapper clearfix">
+
+		{{ content }}
+
+	</div>
+</div>
+
+<div id="footer-container">
+	<footer class="wrapper">
+		<h3>footer</h3>
+	</footer>
+</div>
+
+</body>
+</html>
