@@ -4,14 +4,19 @@ Blogging template for GitHub pages
 	buzzwords:
 	- jekyll
 	- responsive web design
+	seo:
 	- microformats
+	- rich snippets
+	sosials:
+	- +1
+	- tweet
 
 Usage
 -----
 
 - Fork
 - Rename the repo to username.github.com
-- Push something to your renamed repo to trig GitHub to generate the page
+- Push something to your renamed repo to trig GitHub to generate the page, for example, edit _configs.yml and set the correct url. You should do this anyway to setup seo.
 - Browse to http://username.github.com to see the result
 
 If you like to polish the default design or know some awesome Jekyll magic, I'm happy to merge pull requests.

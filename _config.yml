@@ -1,5 +1,7 @@
 markdown: rdiscount
 pygments: true
+#url: http://www.mydomain.com
+permalink: /:year/:month/:day/:title
 
 lsi: true
 paginate: 20
