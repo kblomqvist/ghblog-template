@@ -25,7 +25,7 @@ __Try locally__
 
 	git clone https://kblomqvist@github.com/kblomqvist/ghblog-template.git
 	cd ghblog-template
-	jekyll --server --auto url=""
+	jekyll --server --auto --url=""
 
 Now open your browser and go to _localhost:4000_. The url param tells the jekyll to override the url specified in _config.yml. Overwriting url with empty string gives us baseurl, which is "/". This way the links, for example in archive list, link to their local copies -- not to our production version, which would otherwise be the case because of the seo.
 
