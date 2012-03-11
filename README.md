@@ -3,7 +3,11 @@ Blogging template for GitHub pages
 
 	buzzwords:
 	- jekyll
-	- responsive web design
+	- responsive web design (initializr-template)
+	assets:
+	- jquery 1.7.1
+	- twitter bootstrap 2.0
+	- modernizr 2.5.3
 	seo:
 	- microformats
 	- rich snippets
