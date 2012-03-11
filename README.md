@@ -19,10 +19,10 @@ Blogging template for GitHub pages
 Usage
 -----
 
-- Fork
-- Rename the repo to username.github.com
+- Fork.
+- Rename the repo to username.github.com.
 - Push something to your renamed repo to trig GitHub to generate the page, for example, edit _configs.yml and set the correct url. You should do this anyway to setup seo.
-- Browse to http://username.github.com to see the result
+- Browse to http://username.github.com to see the result.
 
 If you like to polish the default design or know some awesome Jekyll magic, I'm happy to merge pull requests.
 
@@ -60,8 +60,9 @@ The code that this project consists of is licensed under MIT and is based of MIT
 
 ### Assets
 
-- Twitter Bootstrap: Apache License, Version 2.0
-- jQuery: MIT/GPL license
-- Modernizr: MIT/BSD license
-- Normalize.css: Public Domain
-- The design of the default template is based on [initializr-template](https://github.com/verekia/initializr-template).
+- Twitter Bootstrap: Apache License, Version 2.0.
+- jQuery: MIT/GPL license.
+- Modernizr: MIT/BSD license.
+- Normalize.css: Public Domain.
+- Icons from Glyphicons Free, licensed under CC BY 3.0.
+- The template design is based on [initializr-template](https://github.com/verekia/initializr-template).
