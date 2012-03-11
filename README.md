@@ -7,6 +7,7 @@ Blogging template for GitHub pages
 	seo:
 	- microformats
 	- rich snippets
+	- page-specific title and description
 	sosials:
 	- +1
 	- tweet
