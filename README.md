@@ -54,9 +54,14 @@ Now you are ready to install Jekyll (do not use sudo)
 
 	gem install jekyll 
 
-License
--------
+## License
 
 The code that this project consists of is licensed under MIT and is based of MIT-licensed work by [Tom Preston-Werner](http://github.com/mojombo/jekyll).
 
-The design of the default template is based on [initializr-template](https://github.com/verekia/initializr-template).
+### Assets
+
+- Twitter Bootstrap: Apache License, Version 2.0
+- jQuery: MIT/GPL license
+- Modernizr: MIT/BSD license
+- Normalize.css: Public Domain
+- The design of the default template is based on [initializr-template](https://github.com/verekia/initializr-template).
