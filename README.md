@@ -6,7 +6,7 @@ Blogging template for GitHub pages
 	- responsive web design (initializr-template)
 	assets:
 	- jquery 1.7.1
-	- twitter bootstrap 2.0
+	- twitter bootstrap 2.0.2
 	- modernizr 2.5.3
 	seo:
 	- microformats
