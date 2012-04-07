@@ -47,6 +47,9 @@ Did not have Jekyll? To install Jekyll you have to have Ruby and Ruby gems insta
 	# Install Ruby 1.9.3 locally (no sudo!)
 	rvm install 1.9.3
 
+	# If you got ssl cert errors
+	#echo insecure >> ~/.curlrc
+
 	# Use Ruby in this login session
 	rvm use 1.9.3
 
